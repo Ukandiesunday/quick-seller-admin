@@ -1,0 +1,81 @@
+.widget-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
+  gap: 30px;
+  width: 100%;
+  grid-auto-rows: 187px;
+}
+.vendor-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.data-radix-scroll-area-viewport {
+  height: 90%;
+}
+.customer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(227.5px, 1fr));
+  gap: 30px;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+}
+
+.custom-border {
+  border: 1px solid #e6e9ec;
+}
+
+.custom-rounded {
+  border-radius: 15px;
+}
+
+.pie-chart {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+
+  border: 30px solid #4eba6f;
+  border-top: 30px solid #4eba6f;
+  border-left: 30px solid #fca617;
+  border-bottom: 30px solid #c8ead2;
+}
+
+.dots {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.custom-bg-rgba {
+  background: rgba(0, 0, 0, 0.3);
+}
+.custom-zindex {
+  z-index: 999 !important;
+}
+.recent-delivery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax());
+}
+
+.custom-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  gap: 30px;
+}
+
+.custom-transition {
+  transition: width 150ms ease-in-out;
+}
+/* .custom-scrollbar::-webkit-scrollbar-bar {
+  background: #becfe7; 
+  border-radius: 20px;
+}  */
